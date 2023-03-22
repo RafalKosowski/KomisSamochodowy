@@ -25,4 +25,4 @@ Aby uruchomić projekt należy:
 6. Zaimportować plik komis.sql
 7. Przekopiować folder Projekt do folderu htdocs progrmu xampp (najczęściej to jest C:\xampp\htdocs)
 8. Wpisać w pasku adresu w przeglądarce: localhost/Projekt
-9. W razie problemów kontaktować się ze mna na maila: rafi.kosowski2000@gmail.com  
+
