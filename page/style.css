@@ -1,0 +1,234 @@
+/* 
+   Autor: Rafał Kosowski
+
+   Zawartoś pliku:
+      To jest styl projektu. Tutaj jest definiowany styl dla całego projektu.
+      
+*/
+
+
+/* styl dla strony */
+   body {
+      background-color: white;
+   }
+
+/* style dla linków */
+   a {
+      text-decoration: none;
+      color: black;
+   }
+
+/* Style do strony z wysukiwaniem aut i moimi ogłoszeniami */
+   .auto {
+      position: relative;
+      float: left;
+      width: 96%;
+      margin: 1%;
+      margin-top: none;
+      border:solid 2px black;
+      border-radius: 30px;
+      height: 20%;
+      overflow:hidden;
+      justify-content: space-between;
+   }
+   .auto:hover {
+      background-color: rgb(236, 232, 232);
+
+   }
+   .auto .img{
+      width: 20%;
+      position: relative;
+      float: left;
+      margin:1em ;
+      overflow:hidden
+   }
+   .auto img{
+      position: relative;
+      float:left;
+      border-radius: 15px;
+      width: 75%;
+
+   }
+   .auto .tytul{
+      font-size: x-large;
+      position: relative;
+      float: left;
+      display: block;
+      width: 60%;
+   }
+   
+   .auto .dane{
+      font-size:medium;
+      position: relative;
+      float: left;
+      display: block;
+      width: 60%;
+      
+   }
+   .auto .cena{
+      font-size:x-large;
+      position: relative;
+      float: right;
+      font-weight: bolder;
+      padding: 3%;
+      vertical-align: middle;
+      font-size: xx-large;
+   }
+   .auto .dane span{
+      font-size:medium;
+      position: relative;
+      display: inline-block;
+      padding: 10px;
+   }
+   .auto .model{
+      font-size: large;
+      position: relative;
+      float: left;
+      padding: 10px;
+      width: 60%;
+      display: block; 
+   }
+
+/* Style dla wybranego ogłoszenia */
+   #auto{
+      width: 98%;
+      margin: 1%;
+      position: relative;
+      float: left;
+   }
+   #foto{
+      width: 98%;
+      margin: 1%;
+      text-align: center;
+      display: block;
+      position: relative;
+   }
+   #nazwa{
+      font-size: xx-large;
+      position: relative;
+      float: left;
+      width: 80%;
+   }
+   #cena{
+      font-size: xx-large;
+      margin-right: 2%;
+      position: relative;
+      float: right;
+   }
+   #opis{
+      width: 70%;
+      margin-top: 2%;
+      font-size: 16pt;
+      position: relative;
+      float: left;
+   }
+   #dane{
+      width: 30%;
+      margin-top: 2%;
+      font-size: 14pt;
+      position: relative;
+      float: left;
+      margin-bottom: 20px;
+   }
+   #dane td{
+      padding: 2px;
+   }
+   #czlowiek{
+      position: relative;
+      float: left;
+      border: 2px black solid;
+      font-size: x-large;
+      width: 98%;
+   }
+   #nick, #numer, #email{
+      width: 32%;
+      position: relative;
+      display: inline-block;
+      text-align: center;
+   }
+   #czlowiek h3{
+      width: 96%;
+      text-align: center;
+      position: relative;
+      display: inline-block;
+   }
+
+/* ustawienie stylu dla menu */
+   #menu nav{
+      font-size: 18pt;
+      position: relative;
+      float: left;
+   }
+   #menu a{
+      text-decoration: none;
+      color:white;
+
+   }
+   #menu nav li{
+      list-style: none;
+      display: inline-block;
+      border: 1px dotted grey;
+   }
+   #menu nav li:hover, #osoba:hover{
+      background-color: lightgray;
+   }
+   #menu{
+      background-color: darkgrey;
+      color:white;
+      margin: none;
+      padding: 10px;
+      width: 98%;
+      position: relative;
+      float: left;
+   } 
+   #osoba{
+      position: relative;
+      float: right;
+      display: block;
+      border: 1px solid black;
+      margin: 2%;
+      font-size: 20pt;
+   }
+   
+
+/* style dla stopki */
+   footer{
+      background-color: darkgrey;
+      color:white;
+      position: relative;
+      float: left;
+      width: 100%;
+   }
+
+/* style dla formularzy na stronie (do logowania, rejestracji,wstawiania ogłoszenia) */
+   form{
+      position: relative;
+      float: left;
+      display: block;
+      margin: 1%;
+      padding: 1%;
+      border: solid darkgray 2px;
+      font-size: 14pt;
+      justify-content: space-between;
+      text-align: center;
+   }
+   form label{
+      padding: 10px;
+      margin: 5px; 
+      position: relative;
+      float: left;
+      display: block;
+      width: 100%;
+      
+   }
+   select, textarea, input{
+      margin: 5px;
+      padding: 10px; 
+      position: relative;
+      float: left;
+      display: block;
+      width: 90%;
+      border-radius: 10px;
+   }
+
+
